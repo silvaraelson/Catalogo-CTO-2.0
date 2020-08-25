@@ -1,0 +1,155 @@
+:root{
+    font-size: 60%;
+}
+
+#container{
+    display: inline; 
+
+   
+}
+#container #logo-multiplic{
+    display: block;
+    margin: 2rem auto;
+    max-width: 90%;
+    
+
+}
+
+
+
+
+/* 
+#container #b1 {
+    margin-left: 16rem;
+    
+} */
+
+/* #container .bol{
+ display: block;
+    float:left;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: rgb(55, 104, 6);
+    border-color: red;
+    border-radius: 50%;
+    padding: 0.6rem;
+    margin: 0rem 0rem 0rem 2rem;
+  
+} */
+#container .pesquisar{
+display: block;
+ width: 82%;
+ height: 30%;
+ max-width: 82%;
+
+ background-color: rgb(8, 8, 85);
+ padding: 2rem 3rem;
+ justify-content: center;
+ align-items:  center;
+ border-radius: 0.5rem; 
+ margin: 2rem auto;
+}
+#container .pesquisar #titulo{
+    margin-bottom: 1rem;
+    font: 700 3em Archivo;
+}
+
+.pesquisar button{
+  display: block;
+  width: 40%;
+  max-width: 40%;
+  height:1.2em ; 
+  max-height: 20%;
+  border: 0;
+  border-radius: 1rem;
+  cursor: pointer;
+  font: 700 3rem Arial;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+  margin: 10rem auto;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  background-color:rgb(31, 134, 31);
+}
+
+#container .pesquisar button:hover {
+    background:  rgb(31, 134, 31);
+    
+}
+  
+
+label,
+input{
+ 
+    color: cornsilk;
+    display: flex;
+    border: 0;
+    border-radius: 0.8rem;
+    margin: auto;
+    margin-left: 1.7em auto;
+    margin-top: 0.5;
+    width: 80%;
+    max-width: 80%;
+  /* Aqui é feito a configuração do tamanho das caisxas de entrada de text */
+    outline: 0;
+    font: 2.5rem Archivo;
+
+}
+#container .pesquisar input{
+    color: black;
+}
+
+
+/* Parte dos resultados */
+
+
+#container .caixas{
+    
+    width: 82%;
+    display: block;
+    background-color: rgb(8, 8, 85);
+    padding: 2rem 3rem;
+    justify-content:  center;
+    margin: 2rem auto;
+    align-items:  center;
+    border-radius: 0.5rem; 
+
+}
+
+#container .caixas #grid{
+display: flex;
+padding: 1rem;
+width: 90%;
+max-width: 90%;
+background-color: white;
+color:black;
+font: 700 1.6rem times;
+margin: 1rem auto;
+
+}
+#container #contole{
+    display: block;
+    width: 90%;
+    max-width: 90%;
+    margin: 3em auto;
+    margin-left: 1rem;
+}
+    
+
+#container .caixas #contole button{
+
+    width: 10rem;
+    max-width: 15rem;
+    height: 3.5rem;
+    max-height: 7rem;
+    border: 0;
+    border-radius: 1rem;
+    color: white;
+    cursor: pointer;
+    background-color:rgb(31, 134, 31);
+    font: 500 2rem Arial;
+      
+}
+

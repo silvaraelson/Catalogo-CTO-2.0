@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Caixas</title>
+    <link rel="stylesheet" href="inico.css">
+</head>
+<body id="container" >
+<header>
+    
+    <!-- <div id="logo">
+        <div id= "b1"class="bol"></div>
+        <div class="bol"></div>
+        <div class="bol"></div>
+        <div class="bol"></div>
+        <div class="bol"></div>
+    </div> --> 
+    <img id="logo-multiplic" src="logo-multiplic.PNG" alt="Multiplic">
+
+        
+   
+    
+</header>
+
+<form action="pesquisa" method="get">
+            <div class="pesquisar">
+<label for="" id="titulo">Pesquisar CTO</label>
+<label for="area">Área</label>
+<input type="number" name="area" id="area">
+
+<label for="grupo">Grupo</label>
+<input type="number" name="grupo" id="grupo" max="60" min="1">
+
+
+<button id="buscar" class="botao" ontoutch="teste()" onclick="teste()" >Buscar</button>
+
+            </div> 
+        </form>
+<div class ="caixas"> 
+
+    <datagrid id="grid">
+        caixa 1 <br>
+        caixa 2 <br>caixa 1 <br>
+        caixa 2 <br>caixa 1 <br>
+        caixa 2 <br>
+        caixa 3
+    </datagrid>
+
+
+    <div id="contole">
+        <button id="excluir"> Remover</button>
+        <button id="adicionar">Adicionar</button>
+    </div>
+
+
+
+</div>
+
+<script src="script.js"></script>
+    
+</body>
+</html>
